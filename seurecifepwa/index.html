@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Cadastro Seu Recife</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		<link rel="preload" href="/fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="imagem.jpg" as="image">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="manifest" href="/manifest.json">
+
+
+
+		
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+			if ('serviceWorker' in navigator) {
+			  navigator.serviceWorker.register('/service-worker.js')
+				.then(reg => console.log('Service Worker registrado:', reg))
+				.catch(err => console.warn('Erro ao registrar Service Worker:', err));
+			}
+		  </script>
+	</head>
+	
+	<body>
+
+		<div class="wrapper" style="background-image: url('https://cdn.folhape.com.br/upload/dn_arquivo/2024/02/captura-de-tela-2024-02-06-083122.png');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images\bg_1.webp" alt="Logo" width="200" height="100">
+				</div>
+				<form action="bem_vindo.html" method="post">
+					<h3>Formulário de Cadastro Seu Recife</h3>
+					
+					<div class="form-wrapper">
+						<label for="nome"></label>
+						<input type="text" id="primeiro_nome" placeholder=" Nome" class="form-control">
+						<i class="zmdi zmdi-account"></i>
+						
+						
+					</div>
+
+					<div class="form-wrapper">
+						<label for="username">Username</label>
+						<input type="text" id="username"  class="form-control">
+						<i class="zmdi zmdi-account"></i>
+					</div>
+
+					<div class="form-wrapper">
+						<label for="email">Endereço de Email</label>
+						<input type="text" id="email"  class="form-control">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+
+					<div class="form-wrapper">
+						<label for="genero">Gênero</label>
+						<select id="genero" name="genero" class="form-control">
+							<option value="" disabled selected>Escolha seu Gênero</option>
+							<option value="male">Masculino</option>
+							<option value="female">Feminino</option>
+							<option value="other">Outros</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+
+					<div class="form-wrapper">
+						<label for="senha">Senha</label>
+						<input type="password" id="senha"  class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+
+					<div class="form-wrapper">
+						<label for="confirmar_senha">Confirme a Senha</label>
+						<input type="password" id="confirmar_senha"  class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+
+					<button>Registrar
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+
+	</body>
+</html>

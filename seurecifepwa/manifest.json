@@ -1,0 +1,42 @@
+{
+    "name": "Seu Recife",
+    "short_name": "Recife",
+    "description": "Explore Recife de forma única e inesquecível!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffcc00",
+    "icons": [
+      {
+        "src": "images/icons/196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/92.png",
+        "sizes": "92x92",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icons/180.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ]
+  }
+  
