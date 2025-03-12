@@ -9,14 +9,14 @@ O **Seu Recife** é um Progressive Web App (PWA) em desenvolvimento, criado para
 - **HTML5**
 - **CSS3 / SCSS**
 - **JavaScript**
-- **Service Workers** (para cache e suporte offline)
-- **Manifest.json** (para experiência de app)
-- **PWA APIs** (para funcionalidade avançada)
+- **Service Workers** 
+- **Manifest.json** 
+- **PWA APIs** 
 
 ## 🌍 Funcionalidades
-✅ **Modo Offline**: Acesso a páginas mesmo sem internet
-✅ **Instalação como App**: Pode ser instalado no celular ou desktop
-✅ **Notificações Push** *(futuro)*
+✅ **Modo Offline**: 
+✅ **Instalação como App**: 
+✅ **Notificações Push** 
 ✅ **Atualizações Automáticas**
 
 ## 📲 Como Rodar o Projeto
